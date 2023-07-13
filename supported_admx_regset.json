@@ -1,0 +1,904 @@
+{
+  "id": "supported_admx_regset",
+  "Application: Control Event Log behavior when the log file reaches its maximum size": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Application",
+    "control_registry_value_name": "Retention",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Application: Specify the maximum log file size (KB)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Application",
+    "control_registry_value_name": "MaxSize",
+    "control_key_type": "dword"
+  },
+  "Security: Control Event Log behavior when the log file reaches its maximum size": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Security",
+    "control_registry_value_name": "Retention",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Security: Specify the maximum log file size (KB)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Security",
+    "control_registry_value_name": "MaxSize",
+    "control_key_type": "dword"
+  },
+  "Setup: Control Event Log behavior when the log file reaches its maximum size": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Setup",
+    "control_registry_value_name": "Retention",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Setup: Specify the maximum log file size (KB)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\Setup",
+    "control_registry_value_name": "MaxSize",
+    "control_key_type": "dword"
+  },
+  "System: Control Event Log behavior when the log file reaches its maximum size": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\System",
+    "control_registry_value_name": "Retention",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "System: Specify the maximum log file size (KB)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\EventLog\\System",
+    "control_registry_value_name": "MaxSize",
+    "control_key_type": "dword"
+  },
+  "Devices: Allowed to format and eject removable media": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+    "control_registry_value_name": "AllocateDASD",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "Devices: Prevent users from installing printer drivers": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Print\\Providers\\LanMan Print Services\\Servers",
+    "control_registry_value_name": "AddPrinterDrivers",
+    "control_key_type": "string",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Domain member: Digitally encrypt or sign secure channel data (always)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "RequireSignOrSeal",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Domain member: Digitally encrypt secure channel data (when possible)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "SealSecureChannel",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Domain member: Digitally sign secure channel data (when possible)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "SignSecureChannel",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Domain member: Disable machine account password changes": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "DisablePasswordChange",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Domain member: Maximum machine account password age": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "MaximumPasswordAge",
+    "control_key_type": "dword"
+  },
+  "Domain member: Require strong (Windows 2000 or later) session key": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Netlogon\\Parameters",
+    "control_registry_value_name": "RequireStrongKey",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Interactive logon: Do not require CTRL+ALT+DEL": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "DisableCAD",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Interactive logon: Machine inactivity limit": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "InactivityTimeoutSecs",
+    "control_key_type": "dword"
+  },
+  "Interactive logon: Prompt user to change password before expiration": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+    "control_registry_value_name": "PasswordExpiryWarning",
+    "control_key_type": "dword"
+  },
+  "Microsoft network client: Digitally sign communications (always)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters",
+    "control_registry_value_name": "RequireSecuritySignature",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Microsoft network client: Digitally sign communications (if server agrees)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters",
+    "control_registry_value_name": "EnableSecuritySignature",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Microsoft network client: Send unencrypted password to third-party SMB servers": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanWorkstation\\Parameters",
+    "control_registry_value_name": "EnablePlainTextPassword",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Microsoft network server: Amount of idle time required before suspending session": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "control_registry_value_name": "AutoDisconnect",
+    "control_key_type": "dword"
+  },
+  "Microsoft network server: Digitally sign communications (always)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "control_registry_value_name": "RequireSecuritySignature",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Microsoft network server: Digitally sign communications (if client agrees)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "control_registry_value_name": "EnableSecuritySignature",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network access: Do not allow anonymous enumeration of SAM accounts": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "control_registry_value_name": "RestrictAnonymousSAM",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network access: Do not allow anonymous enumeration of SAM accounts and shares": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "control_registry_value_name": "RestrictAnonymous",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network access: Let Everyone permissions apply to anonymous users": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "control_registry_value_name": "EveryoneIncludesAnonymous",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network access: Named Pipes that can be accessed anonymously": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanManServer\\Parameters",
+    "control_registry_value_name": "NullSessionPipes",
+    "control_key_type": "multi_string"
+  },
+  "Network access: Remotely accessible registry paths": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurePipeServers\\Winreg\\AllowedExactPaths",
+    "control_registry_value_name": "Machine",
+    "control_key_type": "multi_string"
+  },
+  "Network security: Allow Local System to use computer identity for NTLM": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "control_registry_value_name": "UseMachineId",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network security: Allow LocalSystem NULL session fallback": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\MSV1_0",
+    "control_registry_value_name": "AllowNullSessionFallback",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network Security: Allow PKU2U authentication requests to this computer to use online identities": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\pku2u",
+    "control_registry_value_name": "AllowOnlineID",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Network security: Configure encryption types allowed for Kerberos": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Kerberos\\Parameters",
+    "control_registry_value_name": "SupportedEncryptionTypes",
+    "control_key_type": "dword"
+  },
+  "Network security: Do not store LAN Manager hash value on next password change": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "control_registry_value_name": "NoLMHash",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "System objects: Require case insensitivity for non-Windows subsystems": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Kernel",
+    "control_registry_value_name": "ObCaseInsensitive",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "SySystem objects: Strengthen default permissions of internal system objects (e.g. Symbolic Links)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager",
+    "control_registry_value_name": "ProtectionMode",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "User Account Control: Admin Approval Mode for the Built-in Administrator account": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "FilterAdministratorToken",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "ConsentPromptBehaviorAdmin",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "User Account Control: Behavior of the elevation prompt for standard users": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "ConsentPromptBehaviorUser",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "3"
+    ]
+  },
+  "User Account Control: Detect application installations and prompt for elevation": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "EnableInstallerDetection",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "User Account Control: Only elevate UIAccess applications that are installed in secure locations": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+    "control_registry_value_name": "EnableSecureUIAPaths",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Domain: Firewall state": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile",
+    "control_registry_value_name": "EnableFirewall",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Domain: Inbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile",
+    "control_registry_value_name": "DefaultInboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Domain: Outbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\DomainProfile",
+    "control_registry_value_name": "DefaultOutboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Private: Firewall state": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile",
+    "control_registry_value_name": "EnableFirewall",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Private: Inbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile",
+    "control_registry_value_name": "DefaultInboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Private: Outbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PrivateProfile",
+    "control_registry_value_name": "DefaultOutboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Public: Firewall state": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile",
+    "control_registry_value_name": "EnableFirewall",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Public: Inbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile",
+    "control_registry_value_name": "DefaultInboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Windows Firewall: Public: Outbound connections": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsFirewall\\PublicProfile",
+    "control_registry_value_name": "DefaultOutboundAction",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Configure SMB v1 client driver": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\mrxsmb10",
+    "control_registry_value_name": "Start",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "Configure SMB v1 server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\LanmanServer\\Parameters",
+    "control_registry_value_name": "SMB1",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "NetBT NodeType configuration": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\NetBT\\Parameters",
+    "control_registry_value_name": "NodeType",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "2",
+      "4",
+      "8"
+    ]
+  },
+  "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+    "control_registry_value_name": "AutoAdminLogon",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip6\\Parameters",
+    "control_registry_value_name": "DisableIPSourceRouting",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "Turn off multicast name resolution": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\DNSClient",
+    "control_registry_value_name": "EnableMulticast",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Prohibit installation and configuration of Network Bridge on your DNS domain network": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Network Connections",
+    "control_registry_value_name": "NC_AllowNetBridge_NLA",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Require domain users to elevate when setting a network's location": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Network Connections",
+    "control_registry_value_name": "NC_StdDomainUserSetLocation",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Minimize the number of simultaneous connections to the Internet or a Windows Domain": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\WcmSvc\\GroupPolicy",
+    "control_registry_value_name": "fMinimizeConnections",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "Include command line in process creation events": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Audit",
+    "control_registry_value_name": "ProcessCreationIncludeCmdLine_Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Encryption Oracle Remediation": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\CredSSP\\Parameters",
+    "control_registry_value_name": "AllowEncryptionOracle",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "Configure Offer Remote Assistance": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "fAllowUnsolicited",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Configure Solicited Remote Assistance": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "fAllowToGetHelp",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable RPC Endpoint Mapper Client Authentication": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Rpc",
+    "control_registry_value_name": "EnableAuthEpResolution",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Turn off real-time protection": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+    "control_registry_value_name": "DisableRealtimeMonitoring",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Turn on behavior monitoring": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+    "control_registry_value_name": "DisableBehaviorMonitoring",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Always prompt for password upon connection": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "fPromptForPassword",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Require secure RPC communication": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "fEncryptRPCTraffic",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Always install with elevated privileges": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer",
+    "control_registry_value_name": "AlwaysInstallElevated",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "MSS: (KeepAliveTime) How often keep-alive packets are sent in milliseconds": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "control_registry_value_name": "KeepAliveTime",
+    "control_key_type": "dword"
+  },
+  "MSS: (PerformRouterDiscovery) Allow IRDP to detect and configure Default Gateway addresses (could lead to DoS)": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "control_registry_value_name": "PerformRouterDiscovery",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Set time limit for active but idle Remote Desktop Services sessions": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "MaxIdleTime",
+    "control_key_type": "dword"
+  },
+  "Set time limit for disconnected sessions": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+    "control_registry_value_name": "MaxDisconnectionTime",
+    "control_key_type": "dword"
+  },
+  "Disable NULL cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\NULL",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable DES cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\DES 56/56",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC2 40/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC2 40/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC2 56/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC2 56/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC2 128/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC2 128/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC4 40/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC4 40/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC4 56/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC4 56/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC4 64/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC4 64/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable RC4 128/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\RC4 128/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable AES 128/128 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\AES 128/128",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "4294967295"
+    ]
+  },
+  "Enable AES 256/256 cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\AES 256/256",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "4294967295"
+    ]
+  },
+  "Enable Triple DES cipher suites": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Ciphers\\Triple DES 168",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1",
+      "4294967295"
+    ]
+  },
+  "Disable MD5 Hashing Algorithm": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Hashes\\MD5",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable SHA1 Hashing Algorithm": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Hashes\\SHA",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable PCT 1.0 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\PCT 1.0\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable PCT 1.0 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\PCT 1.0\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable Multi-Protocol Unified Hello - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\Disable Multi-Protocol Unified Hello\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable Multi-Protocol Unified Hello - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\Disable Multi-Protocol Unified Hello\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable SSL v2.0 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\SSL 2.0\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable SSL v2.0 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\SSL 2.0\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable SSL v3.0 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\SSL 3.0\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable SSL v3.0 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\SSL 3.0\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable TLS v1.0 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.0\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable TLS v1.0 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.0\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable TLS v1.1 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.1\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Disable TLS v1.1 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.1\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable TLS v1.2 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable TLS v1.2 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable TLS v1.3 - Client": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.3\\Client",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Enable TLS v1.3 - Server": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.3\\Server",
+    "control_registry_value_name": "Enabled",
+    "control_key_type": "dword",
+    "control_allowed_values": [
+      "0",
+      "1"
+    ]
+  },
+  "Ensure TLS Cipher suites ordering is configured": {
+    "control_registry_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Cryptography\\Configuration\\SSL\\00010002",
+    "control_registry_value_name": "Functions",
+    "control_key_type": "string"
+  }
+}
